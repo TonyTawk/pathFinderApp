@@ -1,28 +1,14 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
+This README would document steps done to get the
 application up and running.
 
-Things you may want to cover:
+* Created new rails 4 app with pg db
 
-* Ruby version
+* Created and Configured databse and created role in pg admin
 
-* System dependencies
+* Running Rails Server
 
-* Configuration
+* Published app to github with new repository creation
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* initial commit and push done
