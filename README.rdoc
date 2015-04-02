@@ -12,3 +12,5 @@ application up and running.
 * Published app to github with new repository creation
 
 * initial commit and push done
+
+* Migration and Database Tables Creation (Json Like Structure)
