@@ -1,0 +1,28 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+numberone:
+  number: +9613333333
+  country_code: LB
+  type: mobile
+  user: costa
+
+
+numbertwo:
+  number: +9611111111
+  country_code: LB
+  type: landline
+  user: costa
+
+
+numberthree:
+  number: +9611222222
+  country_code: LB
+  type: mobile
+  user: tony
+
+
+numberfour:
+  number: +9611555555
+  country_code: LB
+  type: landline
+  user: tony
