@@ -1,0 +1,29 @@
+<%= simple_form_for user do |f| %>
+    <%= f.input :first_name %>
+    <%= f.input :last_name %>
+    <%= f.input :email %>
+    <%= f.input :password %>
+    <%= f.input :password_confirmation %>
+
+    <%= f.fields_for :telephones do |builder| %>
+        <%= render 'telephone_fields', f: builder %>
+    <% end %>
+    <%= link_to_add_fields "Add Telephone", f, :telephones %>
+
+    <br><br><br><br><br>
+
+    <%= f.fields_for :additional_emails do |builder| %>
+        <%= render 'additional_email_fields', f: builder %>
+    <% end %>
+    <%= link_to_add_fields "Add Email", f, :additional_emails %>
+
+
+    <br><br><br><br><br>
+
+
+    <%= f.fields_for :location do |builder| %>
+        <%= render 'location_fields', f: builder %>
+    <% end %>
+
+    <%= f.button :submit %>
+<% end %>

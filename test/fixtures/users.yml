@@ -6,6 +6,7 @@ costa:
   email: costa@email.com
   password: costapassword
   password_confirmation: costapassword
+  location: locationone
 
 tony:
   first_name: Tony
@@ -13,3 +14,4 @@ tony:
   email: tony@email.com
   password: tonypassword
   password_confirmation: tonypassword
+  location: locationtwo
